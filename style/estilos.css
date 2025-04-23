@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 5px;
+}
+.contenedor {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /*para dividir las columnas que son 2 y "1fr" entra en toda la pantalla*/
+    grid-gap: 1em;
+    grid-template-rows: minmax(10px auto); /*altura de las cajitas*/
+}
+/* ".contenedor > div {..." son los div del contenedor como por ej en este caso es el "item"*/
+.contenedor > div {
+    color: beige;
+    margin: 5px;
+    padding: 10px;
+    background-color: darkgray;
+    border: 4px solid black;
+}
+img {
+    width: 200px ;
+    font-size: 5vw;
+}
+.regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 900;
+    font-style: normal;
+    color: red;
+  }
+  
